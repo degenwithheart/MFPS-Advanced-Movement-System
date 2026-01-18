@@ -1,0 +1,40 @@
+{
+  "name": "com.mfps.externalmatchmaking",
+  "version": "1.0.0",
+  "displayName": "MFPS External Matchmaking Addon",
+  "description": "External matchmaking system for MFPS that reduces Photon CCU costs by 60-80%",
+  "unity": "2020.3",
+  "author": {
+    "name": "MFPS Community",
+    "email": "support@mfps.com",
+    "url": "https://www.mfps.com"
+  },
+  "keywords": [
+    "mfps",
+    "matchmaking",
+    "photon",
+    "firebase",
+    "multiplayer",
+    "gaming"
+  ],
+  "category": "Game Tool",
+  "dependencies": {
+    "com.google.firebase.analytics": "10.4.0",
+    "com.google.firebase.auth": "10.4.0",
+    "com.google.firebase.database": "10.4.0",
+    "com.google.firebase.firestore": "10.4.0",
+    "com.google.firebase.functions": "10.4.0",
+    "com.google.firebase.messaging": "10.4.0"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Integration",
+      "description": "Basic integration example showing how to use the addon",
+      "path": "Samples~/BasicIntegration"
+    }
+  ],
+  "documentationUrl": "https://github.com/mfps/external-matchmaking",
+  "changelogUrl": "https://github.com/mfps/external-matchmaking/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/mfps/external-matchmaking/blob/main/LICENSE",
+  "hideInEditor": false
+}

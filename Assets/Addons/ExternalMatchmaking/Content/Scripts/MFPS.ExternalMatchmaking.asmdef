@@ -1,0 +1,28 @@
+{
+    "name": "MFPS.ExternalMatchmaking",
+    "rootNamespace": "",
+    "references": [
+        "Firebase.Analytics",
+        "Firebase.Auth",
+        "Firebase.Database",
+        "Firebase.Firestore",
+        "Firebase.Functions",
+        "Firebase.Messaging",
+        "PhotonUnityNetworking",
+        "PhotonRealtime",
+        "PhotonChat",
+        "MFPS.Runtime",
+        "MFPS.Internal"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "MFPS_EXTERNAL_MATCHMAKING"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
